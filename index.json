@@ -1,53 +1,5 @@
 {
   "formatVersion": 1,
-  "name": "NovaEmby 官方插件",
-  "plugins": [
-    {
-      "id": "hello",
-      "name": "示例插件",
-      "description": "演示插件的全部能力：配置项、HTTP 接口、自己的网页（左侧“插件”菜单）、读取条目信息、接收播放事件、写活动记录、保存数据、元数据来源、计划任务。可以作为写新插件的模板。",
-      "author": "NovaEmby",
-      "homepage": "https://github.com/Mzxya/novaemby-plugins",
-      "versions": [
-        {
-          "version": "0.3.0",
-          "protocol": 1,
-          "platforms": [
-            "linux/amd64",
-            "linux/arm64"
-          ],
-          "url": "https://github.com/Mzxya/novaemby-plugins/releases/download/hello-v0.3.0/hello-0.3.0.zip",
-          "sha256": "967a5c125b2f056826b71bf0557729365f768b5aa412280308b73e19dcc60c16",
-          "size": 3189878,
-          "changelog": "- 新增：插件自己的网页（manifest `page`）：左侧“插件”菜单里打开，显示访问次数，可以清零（演示同源 fetch 与 `X-Nova-CSRF`）。\n- 新增接口 `GET /api/hello-page`、`POST /api/hello-stats/reset`（管理员）。\n- 网页需要 NovaEmby 16g；旧版本忽略 `page`，其余功能照常。",
-          "releasedAt": 1794381405
-        },
-        {
-          "version": "0.2.0",
-          "protocol": 1,
-          "platforms": [
-            "linux/amd64",
-            "linux/arm64"
-          ],
-          "url": "https://github.com/Mzxya/novaemby-plugins/releases/download/hello-v0.2.0/hello-0.2.0.zip",
-          "sha256": "81f760f87834b0d250013f5335b20f45e308962f0e180a82e8a6a17a9104b9bf",
-          "size": 3187550,
-          "changelog": "- 新增：作为元数据来源（给没有标签的条目补一个标签，配置项“补充的标签”）。\n- 新增：计划任务“示例：访问计数报告”（默认不启用）。\n- 需要 NovaEmby 13b（旧版本会忽略这两项能力，其余功能照常）。",
-          "releasedAt": 1792439033
-        },
-        {
-          "version": "0.1.0",
-          "protocol": 1,
-          "platforms": [
-            "linux/amd64",
-            "linux/arm64"
-          ],
-          "url": "https://github.com/Mzxya/novaemby-plugins/releases/download/hello-v0.1.0/hello-0.1.0.zip",
-          "sha256": "17e3a98d307c525e609ac3aa2062e0eed1fda27aae4ca29ee5641f8d8dac15aa",
-          "size": 3169127,
-          "releasedAt": 1792432648
-        }
-      ]
-    }
-  ]
+  "name": "jenley 的 NovaEmby 插件",
+  "plugins": []
 }
